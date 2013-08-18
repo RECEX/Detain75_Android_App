@@ -1,0 +1,4 @@
+.gradle/*
+.idea/*
+DetainSeventyFive/build/*
+local.properties
