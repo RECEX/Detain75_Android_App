@@ -15,6 +15,28 @@
  *     along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+package in.co.recex.detainseventyfive;
 
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.support.v4.app.NotificationCompat;
 
-include ':DetainSeventyFive'
+import in.co.recex.detainseventyfive.HomeScreenActivity;
+import in.co.recex.detainseventyfive.NotificationGenerator;
+
+/**
+ * Created by sopandev on 28/8/13.
+ */
+public class BroadcastRec extends BroadcastReceiver{
+
+    @Override
+    public void onReceive(Context context, Intent intent)
+    {
+        Intent service1 = new Intent(context, NotificationGenerator.class);
+        context.startService(service1);
+        context.stopService(service1);
+    }
+}

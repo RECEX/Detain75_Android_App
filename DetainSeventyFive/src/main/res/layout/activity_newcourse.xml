@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2013. Sopandev Tewari, Recex
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     This program is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:id="@+id/scrollView">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".NewCourseActivity">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Course Name: "
+            android:id="@+id/CourseName"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="16dp"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:layout_alignParentStart="false"
+            android:inputType="text"
+            android:layout_alignBottom="@+id/CourseName"
+            android:layout_toRightOf="@+id/CourseName"
+            android:width="200dp"
+            android:layout_alignRight="@+id/tue"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView3"
+            android:layout_alignLeft="@+id/CourseName"
+            android:layout_below="@+id/name"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Mandatory Attendance (%): "
+            android:id="@+id/MandAtt"
+            android:layout_below="@id/CourseName"
+            android:layout_toRightOf="@+id/textView3"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/mandatory"
+            android:layout_below="@+id/MandAtt"
+            android:width="75dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Weekly Schedule:"
+            android:id="@+id/textView5"
+            android:layout_marginTop="29dp"
+            android:layout_below="@+id/mandatory"
+            android:layout_alignLeft="@+id/Wed"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Mon"
+            android:id="@+id/Mon"
+            android:layout_below="@+id/textView5"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_marginTop="13dp"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mon"
+            android:inputType="number"
+            android:layout_below="@+id/textView5"
+            android:layout_toRightOf="@+id/Mon"
+            android:layout_alignRight="@+id/wed"
+            android:text="0"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Tue"
+            android:id="@+id/Tue"
+            android:inputType="number"
+            android:layout_above="@+id/wed"
+            android:layout_toRightOf="@+id/wed"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sun"
+            android:inputType="number"
+            android:layout_below="@+id/fri"
+            android:layout_toRightOf="@+id/Mon"
+            android:layout_alignRight="@+id/wed"
+            android:ems="10"
+            android:text="0"
+            android:layout_marginTop="5dp"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tue"
+            android:inputType="number"
+            android:layout_above="@+id/Wed"
+            android:layout_toRightOf="@+id/Thu"
+            android:layout_alignRight="@+id/thu"
+            android:text="0"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Wed"
+            android:id="@+id/Wed"
+            android:layout_below="@+id/mon"
+            android:layout_alignLeft="@+id/Mon"
+            android:layout_marginTop="12dp"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/wed"
+            android:layout_below="@+id/mon"
+            android:layout_toRightOf="@+id/Wed"
+            android:layout_alignRight="@+id/fri"
+            android:text="0"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Thu"
+            android:id="@+id/Thu"
+            android:layout_alignTop="@+id/Wed"
+            android:layout_toRightOf="@+id/wed"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/thu"
+            android:layout_below="@+id/tue"
+            android:layout_toRightOf="@+id/Tue"
+            android:text="0"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Fri"
+            android:id="@+id/Fri"
+            android:layout_marginTop="19dp"
+            android:layout_below="@+id/wed"
+            android:layout_toLeftOf="@+id/fri"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Sun"
+            android:id="@+id/Sun"
+            android:layout_marginTop="19dp"
+            android:layout_below="@+id/fri"
+            android:layout_toLeftOf="@+id/fri"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/fri"
+            android:layout_alignBottom="@+id/Fri"
+            android:layout_toRightOf="@+id/Wed"
+            android:layout_alignRight="@+id/textView5"
+            android:text="0"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Sat"
+            android:id="@+id/Sat"
+            android:layout_alignTop="@+id/Fri"
+            android:layout_toLeftOf="@+id/sat"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/sat"
+            android:layout_alignTop="@+id/fri"
+            android:layout_alignLeft="@+id/thu"
+            android:text="0"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:id="@+id/submitcourse"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:onClick="onNext"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/textView"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="*Please enter this data carefully. You can't come back to this step!"
+            android:id="@+id/textView"
+            android:layout_marginTop="35dp"
+            android:layout_alignTop="@+id/Sun"
+            android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+
+</ScrollView>
