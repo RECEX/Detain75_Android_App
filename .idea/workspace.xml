@@ -26,7 +26,10 @@
     <option name="TOOL_WINDOW_CUSTOM_FILTER" value="SOPAN" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a8a4a41-1ed3-44ce-b750-a5ffda802218" name="Default" comment="" />
+    <list default="true" id="3a8a4a41-1ed3-44ce-b750-a5ffda802218" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DetainSeventyFive/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/DetainSeventyFive/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="DetainSeventyFive.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,85 +92,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NewCourseActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/NewCourseActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="13" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="3078">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NextScreenActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/NextScreenActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="4" selection-start="4693" selection-end="4693" vertical-scroll-proportion="0.825" vertical-offset="1593" max-vertical-offset="2178">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DialogShowActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/DialogShowActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="1814" selection-end="1814" vertical-scroll-proportion="0.0" vertical-offset="936" max-vertical-offset="1620">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeScreenActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/HomeScreenActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="33" selection-start="1823" selection-end="1823" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="3420">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TodayAttActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/TodayAttActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="26" selection-start="3376" selection-end="3376" vertical-scroll-proportion="0.0" vertical-offset="1890" max-vertical-offset="4014">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/Utils/DatabaseHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="13" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="2808">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Database2Handler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/Utils/Database2Handler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="13" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="4950">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_changeenddate.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/res/layout/activity_changeenddate.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="23" selection-start="2411" selection-end="2411" vertical-scroll-proportion="0.0" vertical-offset="1008" max-vertical-offset="1116">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="30" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1728">
+            <state line="19" column="27" selection-start="935" selection-end="935" vertical-scroll-proportion="0.4918033" vertical-offset="162" max-vertical-offset="1728">
               <folding />
             </state>
           </provider>
@@ -193,8 +121,8 @@
     </FindUsagesManager>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../Recex_Keystore.jks" />
-    <option name="KEY_ALIAS" value="Android_Playstore" />
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/android-app-keystore/Recex_Keystore.jks" />
+    <option name="KEY_ALIAS" value="android_playstore" />
     <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
@@ -253,8 +181,9 @@
         <option value="$PROJECT_DIR$/DetainSeventyFive/src/main/res/layout/activity_nextscreen.xml" />
         <option value="$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/HomeScreenActivity.java" />
         <option value="$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/TodayAttActivity.java" />
-        <option value="$PROJECT_DIR$/DetainSeventyFive/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/NextScreenActivity.java" />
+        <option value="$PROJECT_DIR$/DetainSeventyFive/src/main/res/values-v14/styles.xml" />
+        <option value="$PROJECT_DIR$/DetainSeventyFive/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -509,16 +438,23 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="copyright.profiles" />
     <property name="ExportedModule" value="DetainSeventyFive" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="SH24MW114370" />
+    <property name="last_opened_file_path" value="$USER_HOME$/android-app-keystore/Recex_Keystore.jks" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="CB5A1QAP1G" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Galaxy_Nexus_by_Google" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DetainSeventyFive/src/main/res" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.DetainSeventyFive">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -678,12 +614,16 @@
       <created>1378236389152</created>
       <updated>1378236389152</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Use DeviceDefault theme for Android 4.0+ phones">
+      <created>1378321823451</created>
+      <updated>1378321823451</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="19" width="1313" height="758" extended-state="1" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -695,21 +635,21 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31979695" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32088286" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31996793" sideWeight="0.680203" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31996793" sideWeight="0.6706282" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20063442" sideWeight="0.9500805" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -721,27 +661,13 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Public Release Version 0.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Public Release Version 0.0.2" />
+    <MESSAGE value="Use DeviceDefault theme for Android 4.0+ phones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use DeviceDefault theme for Android 4.0+ phones" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/Utils/Database2Creator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="995" selection-end="995" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="825" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/res/layout/activity_detailshow.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2265">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/NotificationGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="13" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="975">
@@ -794,20 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/Utils/DatabaseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="13" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0" vertical-offset="1575" max-vertical-offset="1980">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/DialogShowActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1814" selection-end="1814" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/res/layout/activity_nextscreen.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -818,30 +730,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/HomeScreenActivity.java">
+    <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/NextScreenActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="33" selection-start="1823" selection-end="1823" vertical-scroll-proportion="0.0" vertical-offset="1316" max-vertical-offset="2190">
+        <state line="134" column="4" selection-start="4693" selection-end="4693" vertical-scroll-proportion="0.0" vertical-offset="1593" max-vertical-offset="2178">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/res/values-v14/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="30" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
+        <state line="10" column="26" selection-start="493" selection-end="493" vertical-scroll-proportion="0.34877384" vertical-offset="52" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/DialogShowActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1814" selection-end="1814" vertical-scroll-proportion="-0.9322034" vertical-offset="726" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/HomeScreenActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="33" selection-start="1823" selection-end="1823" vertical-scroll-proportion="-1.8813559" vertical-offset="918" max-vertical-offset="2628">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/TodayAttActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="26" selection-start="3376" selection-end="3376" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="2625">
+        <state line="105" column="26" selection-start="3376" selection-end="3376" vertical-scroll-proportion="-1.8305085" vertical-offset="1890" max-vertical-offset="3150">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/NextScreenActivity.java">
+    <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/java/in/co/recex/detainseventyfive/Utils/DatabaseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="4" selection-start="4693" selection-end="4693" vertical-scroll-proportion="0.825" vertical-offset="1593" max-vertical-offset="2178">
+        <state line="30" column="13" selection-start="1100" selection-end="1100" vertical-scroll-proportion="-1.220339" vertical-offset="540" max-vertical-offset="2376">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DetainSeventyFive/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="948" selection-end="948" vertical-scroll-proportion="0.09836066" vertical-offset="270" max-vertical-offset="666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DetainSeventyFive/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="27" selection-start="935" selection-end="935" vertical-scroll-proportion="0.4918033" vertical-offset="162" max-vertical-offset="1728">
           <folding />
         </state>
       </provider>
