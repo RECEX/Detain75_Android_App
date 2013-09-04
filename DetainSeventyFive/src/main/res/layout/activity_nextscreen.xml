@@ -85,7 +85,7 @@
             android:layout_below="@+id/classestill"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="13dp"
-            android:onClick="onSubmit"/>
+            android:onClick="BufferSubmit"/>
 
     <TextView
             android:layout_width="wrap_content"

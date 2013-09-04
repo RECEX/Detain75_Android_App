@@ -63,51 +63,82 @@ public class NextScreenActivity extends Activity {
         Log.d("NSA", "Display");
     }
 
-
-    public void onSubmit(View v)
+    public void SubmitButton(int alatt, int alcan)
     {
 
-    db.open();
+        db.open();
+        db.writeCancel(UtilityFunctions.name, alcan);
+        db.writeOver(UtilityFunctions.name, (classestillnow-alcan));
+        db.writeAtt(UtilityFunctions.name, alatt);
+        database.close();
+        db.close();
 
-
-    EditText e=(EditText) findViewById(R.id.aldatt);
-    Integer alatt=Integer.valueOf(e.getText().toString()).intValue();
-
-    if(alatt>classestillnow)
-    {
-        alatt=classestillnow;
-        Log.d("SOPAN", "alatt ="+alatt);
-    }
-    int Total = db.readTotal(UtilityFunctions.name);
-    EditText f=(EditText) findViewById(R.id.aldcan);
-    Integer alcan=Integer.valueOf(f.getText().toString()).intValue();
-
-    if((alcan>(classestillnow)))
-    {
-        alcan=classestillnow;
-        alatt=0;
-        Log.d("SOPAN", "alatt ="+alatt);
-        Log.d("SOPAN", "alcan ="+alcan);
-    }
-    if((alcan>(classestillnow-alatt))){
-        alcan=(classestillnow-alatt);
-        Log.d("SOPAN", "alcan ="+alcan);
-    }
-    db.writeCancel(UtilityFunctions.name, alcan);
-    db.writeOver(UtilityFunctions.name, (classestillnow-alcan));
-    db.writeAtt(UtilityFunctions.name, alatt);
-    database.close();
-    db.close();
-    Context context = getApplicationContext();
-    CharSequence text = "Course Added!";
-    int duration = Toast.LENGTH_SHORT;
-    if(context!=null)
-    {
-    Toast toast = Toast.makeText(context, text, duration);
-    toast.show();
-    }
+        Context context = getApplicationContext();
+        CharSequence text = "Course Added!";
+        int duration = Toast.LENGTH_SHORT;
+        if(context!=null)
+        {
+            Toast toast = Toast.makeText(context, text, duration);
+            toast.show();
+        }
         Intent intent = new Intent(NextScreenActivity.this, HomeScreenActivity.class);
         startActivity(intent);
     }
+
+    public void BufferSubmit(View v)
+    {
+
+    EditText e=(EditText) findViewById(R.id.aldatt);
+    Integer alatt=-1;
+    EditText f=(EditText) findViewById(R.id.aldcan);
+    Integer alcan=-1;
+    try{
+            alatt=Integer.valueOf(e.getText().toString()).intValue();
+            alcan=Integer.valueOf(f.getText().toString()).intValue();
+    }
+    catch (Exception x){
+
+        Context context = getApplicationContext();
+        CharSequence text = "Please enter data into the empty fields!";
+        int duration = Toast.LENGTH_SHORT;
+        if(context!=null)
+        {
+            Toast toast = Toast.makeText(context, text, duration);
+            toast.show();
+        }
+    }
+    if(alcan!=-1&&alatt!=-1)
+    {
+    if(alatt>classestillnow||alcan>classestillnow||alcan>(classestillnow-alatt))
+    {
+
+        Context context = getApplicationContext();
+        CharSequence text = "Please enter correct data!";
+        int duration = Toast.LENGTH_SHORT;
+        if(context!=null)
+        {
+            Toast toast = Toast.makeText(context, text, duration);
+            toast.show();
+        }
+
+    }
+    else if(alcan==0&&alatt==0)
+    {
+            Context context = getApplicationContext();
+            CharSequence text = "Please enter correct data!";
+            int duration = Toast.LENGTH_SHORT;
+            if(context!=null)
+            {
+                Toast toast = Toast.makeText(context, text, duration);
+                toast.show();
+            }
+    }
+    else{
+        SubmitButton(alatt, alcan);
+    }
+    }
+
+
+}
 }
 

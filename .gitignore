@@ -2,3 +2,6 @@
 .idea/*
 DetainSeventyFive/build/*
 local.properties
+*~
+*.apk
+DetainSeventyFive/DetainSeventyFive.apk

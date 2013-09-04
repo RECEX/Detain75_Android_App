@@ -90,7 +90,22 @@ public class TodayAttActivity extends Activity {
         Log.d("TAA", "array");
         count=db.getCount(day);
         Log.d("TAA", "count");
-        ShowDialog(0);
+        if(count==0){
+            Context context = getApplicationContext();
+            CharSequence text = "You don't have any courses added!";
+            int duration = Toast.LENGTH_SHORT;
+            if(context!=null)
+            {
+                Toast toast = Toast.makeText(context, text, duration);
+                toast.show();
+            }
+            Intent intent = new Intent(TodayAttActivity.this, HomeScreenActivity.class);
+            startActivity(intent);
+        }
+        else{
+            ShowDialog(0);
+        }
+
 
     }
 
