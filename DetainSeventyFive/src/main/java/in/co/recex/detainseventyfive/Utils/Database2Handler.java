@@ -232,7 +232,7 @@ public class Database2Handler {
 
                 HashMap<String, String> map = new HashMap<String, String>();
                 map.put("CourseNameView", cursor.getString(cursor.getColumnIndex("course")));
-                map.put("CoursePercentage", ": "+Integer.toString(percentcal(cursor.getString(cursor.getColumnIndex("course"))))+"%");
+                map.put("CoursePercentage", " "+Integer.toString(percentcal(cursor.getString(cursor.getColumnIndex("course"))))+"%");
                 list.add(map);
                 cursor.moveToNext();
             }

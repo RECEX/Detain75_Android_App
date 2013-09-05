@@ -3,3 +3,6 @@ local.properties
 *~
 *.apk
 DetainSeventyFive/DetainSeventyFive.apk
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/misc.xml

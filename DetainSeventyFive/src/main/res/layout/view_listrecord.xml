@@ -2,6 +2,7 @@
 
 <!--
   ~ Copyright (c) 2013. Sopandev Tewari, Recex
+  ~ Copyright (c) 2013. Arnav Gupta, Recex
   ~
   ~ This program is free software: you can redistribute it and/or modify
   ~     it under the terms of the GNU General Public License as published by
@@ -27,14 +28,15 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            />
+        android:maxLines="2" />
 
     <TextView
             android:id="@+id/CoursePercentage"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@+id/CourseNameView"
+            android:layout_below="@id/CourseNameView"
+            android:layout_marginBottom="10dp"
             />
 
 
