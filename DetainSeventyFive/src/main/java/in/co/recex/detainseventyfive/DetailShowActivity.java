@@ -17,6 +17,9 @@
 
 package in.co.recex.detainseventyfive;
 
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
@@ -24,11 +27,16 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import in.co.recex.detainseventyfive.Utils.Database2Handler;
+import in.co.recex.detainseventyfive.Utils.DatabaseHandler;
+import in.co.recex.detainseventyfive.Utils.SemDataHandler;
 
 public class DetailShowActivity extends Activity {
     Database2Handler db2= new Database2Handler(this);
+    DatabaseHandler db=new DatabaseHandler(this);
+
     public String name;
 
     @Override
@@ -97,5 +105,52 @@ public class DetailShowActivity extends Activity {
         Intent intent= new Intent(DetailShowActivity.this, HomeScreenActivity.class);
         startActivity(intent);
     }
-    
+
+    public void onDelete(View v){
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(DetailShowActivity.this);
+
+        // set title
+        alertDialogBuilder.setTitle("Confirmation");
+
+        // set dialog message
+        alertDialogBuilder
+                .setMessage("Are you sure you want to delete this course?")
+                .setCancelable(false)
+                .setPositiveButton("Yes",new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog,int id) {
+                        // if this button is clicked, close
+                        // current activity
+                        db.open();
+                        db2.open();
+                        db.deleteCourse(name);
+                        db2.deleteCourseProgress(name);
+                        db.close();
+                        db2.close();
+                        Context context = getApplicationContext();
+                        CharSequence text = "Course Deleted!";
+                        int duration = Toast.LENGTH_SHORT;
+                        if(context!=null)
+                        {
+                            Toast toast = Toast.makeText(context, text, duration);
+                            toast.show();
+                        }
+                        Intent intent = new Intent(DetailShowActivity.this, HomeScreenActivity.class);
+                        startActivity(intent);
+
+                    }
+                })
+                .setNegativeButton("No",new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog,int id) {
+                        // if this button is clicked, just close
+                        // the dialog box and do nothing
+                        dialog.cancel();
+                    }
+                });
+
+        // create alert dialog
+        AlertDialog alertDialog = alertDialogBuilder.create();
+
+        // show it
+        alertDialog.show();
+    }
 }

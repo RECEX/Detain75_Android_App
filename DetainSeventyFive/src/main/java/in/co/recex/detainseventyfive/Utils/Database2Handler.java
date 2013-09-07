@@ -267,4 +267,7 @@ public class Database2Handler {
         database.delete(Database2Creator.TABLE_PROGRESS, null, null);
     }
 
+    public void deleteCourseProgress(String name){
+        database.delete(Database2Creator.TABLE_PROGRESS, "course IS ?", new String[]{name});
+    }
 }

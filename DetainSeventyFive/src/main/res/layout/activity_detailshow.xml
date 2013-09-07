@@ -143,4 +143,14 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:onClick="onBack"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Course"
+            android:id="@+id/deletebutton"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/backbutton"
+            android:layout_centerHorizontal="true"
+            android:onClick="onDelete"/>
 </RelativeLayout>

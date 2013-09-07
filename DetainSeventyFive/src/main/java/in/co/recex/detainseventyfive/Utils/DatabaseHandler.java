@@ -148,4 +148,8 @@ public class DatabaseHandler {
         return count;
     }
 
+    public void deleteCourse(String name){
+        database.delete(DatabaseCreator.TABLE_SCHEDULE, "course IS ?", new String[]{name});
+    }
+
 }

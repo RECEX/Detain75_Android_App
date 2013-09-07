@@ -92,7 +92,7 @@ public class TodayAttActivity extends Activity {
         Log.d("TAA", "count");
         if(count==0){
             Context context = getApplicationContext();
-            CharSequence text = "You don't have any courses added!";
+            CharSequence text = "No courses are scheduled for today!";
             int duration = Toast.LENGTH_SHORT;
             if(context!=null)
             {

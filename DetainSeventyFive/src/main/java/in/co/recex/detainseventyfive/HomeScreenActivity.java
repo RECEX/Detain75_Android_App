@@ -80,7 +80,6 @@ public class HomeScreenActivity extends Activity {
         db3.open();
         try{
             int[] time=db3.readTime();
-
             calendar=Calendar.getInstance();
             calendar.set(Calendar.HOUR_OF_DAY, time[0]);
             calendar.set(Calendar.MINUTE, time[1]);
